@@ -1,0 +1,230 @@
+
+<!-- <script>
+    AOS.init();
+  </script> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav bd_grid">
+            <div>
+                <a href="#" class="nav_logo">SUBASHINI M</a>
+            </div>
+            <div class="nav_menu" id="nav_menu">
+                <ul class="nav_list">
+                    <li class="nav_items"><a href="#home" class="nav_link active">Home</a></li>
+                    <li class="nav_items"><a href="#about" class="nav_link active">About</a></li>
+                    <li class="nav_items"><a href="#skills" class="nav_link active">Skills</a></li>
+                    <li class="nav_items"><a href="#projects" class="nav_link active">Projects</a></li>
+                    <li class="nav_items"><a href="#contact" class="nav_link active">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav_toggle" id="nav_toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <!-- home section  -->
+         <section class="home bd_grid" id="home">
+            <div class="home_data" data-aos="fade-down">
+                <h1 class="home_title">Hi,<br>I'm <span class="home_title_color">SUBASHINI M</span>
+                <br>Frontend Developer</h1>
+                <a href="#contact" class="button">Contact</a>
+                <div class="home_social">
+                    <a href="#" class="home_social_icon" data-aos="fade-down" data-aos-delay="200">
+                        <i class='bx bxl-github'></i>
+                    </a>
+                </div> 
+            </div>
+           
+
+            <div class="home_img">
+                <img src="./SVGFiles/home.png" data-aos="fade-left" data-aos-delay="350">
+            </div>
+         </section>
+
+         <!-- about section  -->
+         <section class="about section" id="about">
+            <h2 class="section_title" data-aos="fade-down">About</h2>
+            <div class="about_container bd_grid">
+                <div class="about_img" data-aos="fade-down" data-aos-delay="250">
+                   <img src="./SVGFiles/linkedinphoto.jpg" alt="">
+                </div>
+                <div>
+                 <h2 class="about_subtitle" data-aos="fade-down" data-aos-delay="350">I'm SUBASHINI M</h2>
+                 <p class="about_text" data-aos="fade-down" data-aos-delay="450">Hi, I'm a frontend developer and software engineer, passionate about crafting user-friendly, efficient, and responsive web applications.
+ 
+                     Currently pursuing a B.E. in Computer Science Engineering at Government College of Engineering, Salem, I have a strong foundation in HTML, CSS, JavaScript, C++, and Java. My recent internship at CodeSoft allowed me to apply my frontend development skills in real-world projects.
+                     
+                     I am passionate about DSA & problem-solving, aiming for a successful career in software development. My goal is to work on innovative projects that make an impact.</p>
+                </div>
+            </div>
+         </section>
+
+         <!-- skills section  -->
+         <section class="skills section" id="skills">
+            <h2 class="section_title"  data-aos="fade-down">Skills</h2>
+            <div class="skills_container bd_grid">
+                <div>
+                    <h2 class="skills_subtitle"  data-aos="fade-down" data-aos-delay="250">Professional Skills</h2>
+                    <p  class="skills_text"  data-aos="fade-down" data-aos-delay="350">You don't have to be great to start, but you have to start to be great.</p>
+                    <!-- skills html  -->
+                     <div class="skills_data"  data-aos="fade-right">
+                        <div class="skills_name">
+                            <!-- <i class='bx bxl-css3'></i> -->
+                            <i class='bx bxl-html5 skills_icon'></i>
+                            <span class="skill_name">Html</span>
+                        </div>
+                        <div>
+                            <span class="skill_percentage">95%</span>
+                        </div>
+                        <div class="skill_bar skill_html"></div>
+                     </div>
+
+                     <!-- skills css  -->
+                     <div class="skills_data"  data-aos="fade-right" data-aos-delay="150">
+                        <div class="skills_name">
+                            <i class='bx bxl-css3 skills_icon'></i>
+                            <span class="skill_name">CSS</span>
+                        </div>
+                        <div>
+                            <span class="skill_percentage">75%</span>
+                        </div>
+                        <div class="skill_bar skill_css"></div>
+                     </div>
+
+                     <!-- skills javascript -->
+                     <div class="skills_data" data-aos="fade-right" data-aos-delay="250">
+                        <div class="skills_name">
+                            <i class='bx bxl-javascript skills_icon' ></i>
+                            <span class="skill_name">JavaScript</span>
+                        </div>
+                        <div>
+                            <span class="skill_percentage">90%</span>
+                        </div>
+                        <div class="skill_bar skill_javascript"></div>
+                     </div>
+
+                     <!-- skills C++ -->
+                     <div class="skills_data" data-aos="fade-right" data-aos-delay="350">
+                        <div class="skills_name">
+                            <i class='bx bxl-c-plus-plus skills_icon' ></i>
+                            <span class="skill_name">C++</span>
+                        </div>
+                        <div>
+                            <span class="skill_percentage">85%</span>
+                        </div>
+                        <div class="skill_bar skill_c_plus_plus"></div>
+                     </div>
+
+                    <!-- skills java-->
+                    <div class="skills_data" data-aos="fade-right" data-aos-delay="450">
+                        <div class="skills_name">
+                            <i class='bx bxl-java skills_icon' ></i>
+                            <span class="skill_name">Java</span>
+                        </div>
+                        <div>
+                            <span class="skill_percentage">95%</span>
+                        </div>
+                        <div class="skill_bar skill_java"></div>
+                     </div> 
+
+
+                </div>
+                   <img src="./SVGFiles/skills.png" data-aos="fade-left" data-aos-delay="350">
+                <div>
+
+                </div>
+            </div>
+
+         </section>
+
+         <!-- projects section  -->
+         <section class="projects" id="projects">
+            <h2 class="section_title" data-aos="fade-down">Projects</h2>
+            <div class="projects_container bd_grid">
+                <div class="project-card">
+                    <img src="../Portfolio/SVGFiles/project1.png" alt="Project 1">
+                    <h3 class="project-title">Landing Page</h3>
+                    <p class="project-description">Short description of the project.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="../Portfolio/SVGFiles/project2.png" alt="Project 2">
+                    <h3 class="project-title">Calculator</h3>
+                    <p class="project-description">Short description of the project.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+
+                <!-- <div class="project-card">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3 class="project-title">Project Name 2</h3>
+                    <p class="project-description">Short description of the project.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3 class="project-title">Project Name 2</h3>
+                    <p class="project-description">Short description of the project.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div> -->
+            </div>
+            </div>
+                <img src="./SVGFiles/projects.png"  data-aos="fade-right" data-aos-delay="450">
+                
+            <div>
+
+         </section>
+
+
+         <!-- contact section  -->
+         <section class="contact section" id="contact">
+            <h2 class="section_title"  data-aos="fade-down">Contact</h2>
+            <div class="contact_container bd_grid">
+                <form action="#" class="contact_form">
+                    <input type="text" placeholder="Name" class="control_input" data-aos="fade-right" data-aos-delay="200">
+                    <input type="mail" placeholder="Email" class="control_input" data-aos="fade-right" data-aos-delay="400">
+                    <textarea name="" id="" cols="0" rows="10" class="control_input" data-aos="fade-right" data-aos-delay="600"> </textarea>
+                    <input type="button" value="Send" class="control_button button" data-aos="fade-right" data-aos-delay="600">
+                </form>
+            </div>
+         </section>
+
+         <!-- footer section  -->
+          <footer class="footer">
+            <p class="footer_title" data-aos="fade-left">SUBASHINI M</p>
+            <div class="footer_social">
+                <a href="#" class="footer_icon">
+                    <i class='bx bxl-github'></i>
+                </a>
+
+            </div>
+            <p>&#169;2025 copyright all right reserved</p>
+          </footer>
+
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init({
+            duration:1000,
+            easing: 'ease',
+            once: false,
+        });
+    </script>
+    
+</body>
+</html>
+
+
